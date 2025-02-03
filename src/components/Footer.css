@@ -1,0 +1,89 @@
+/* Footer.css */
+.social-icons {
+    display: flex;
+    gap: 1.2rem;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    list-style: none;
+    position: relative;
+  }
+  
+  .social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #f5f5f5;
+    border-radius: 3px;
+    transform: rotate(45deg) scale(0.95);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .social-icons a::before,
+  .social-icons a::after {
+    content: '';
+    position: absolute;
+    background: #d1d1d1;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .social-icons a::before {
+    width: 2px;
+    height: 100%;
+    left: -2px;
+    transform: skewY(-45deg);
+  }
+  
+  .social-icons a::after {
+    height: 2px;
+    width: 100%;
+    bottom: -2px;
+    transform: skewX(-45deg);
+  }
+  
+  .social-icons svg {
+    transform: rotate(-45deg);
+    color: #444;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Hover Effects */
+  .social-icons a:hover {
+    transform: rotate(45deg) translate(3px, -3px);
+    box-shadow: -6px 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .social-icons a:hover svg {
+    color: white;
+    transform: rotate(-45deg) scale(1.1);
+  }
+  
+  /* Platform Colors */
+  .social-icons li:nth-child(1) a:hover { background: #ea4335; } /* Mail */
+  .social-icons li:nth-child(1) a:hover::before,
+  .social-icons li:nth-child(1) a:hover::after { background: #c5372b; }
+  
+  .social-icons li:nth-child(2) a:hover { background: #1da1f2; } /* Twitter */
+  .social-icons li:nth-child(2) a:hover::before,
+  .social-icons li:nth-child(2) a:hover::after { background: #0d8ecf; }
+  
+  .social-icons li:nth-child(3) a:hover { background: #0077b5; } /* LinkedIn */
+  .social-icons li:nth-child(3) a:hover::before,
+  .social-icons li:nth-child(3) a:hover::after { background: #005582; }
+  
+  .social-icons li:nth-child(4) a:hover { background: #333; } /* GitHub */
+  .social-icons li:nth-child(4) a:hover::before,
+  .social-icons li:nth-child(4) a:hover::after { background: #222; }
+  
+  .social-icons li:nth-child(5) a:hover { background: #ffa116; } /* LeetCode */
+  .social-icons li:nth-child(5) a:hover::before { background: #cc8112; }
+  .social-icons li:nth-child(5) a:hover::after { background: #ffb347; }
