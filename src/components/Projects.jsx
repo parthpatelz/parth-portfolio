@@ -103,14 +103,19 @@ export const project = [
     ]
 },
 {
-  title: 'Restaurant Management ',
+  title: 'Culinaryhub',
   description: 'This project is a Restaurant Management System built with Node.js, Express, and MongoDB, featuring secure user authentication and a RESTful API. It allows users to manage restaurant data while ensuring protected access through JWT tokens.',
 
   links: [
       {
-          type: 'demo',
+          type: 'git',
           url: 'https://github.com/parthpatelz/5315-project.git'
-      }
+      },
+      {
+        type: 'demo',
+        url: 'culinaryhub.vercel.app'
+    }
+
   ],
   technologies: ['Express.js', 'Mongoose ODM', 'MongoDB', 'JWT', 'bcrypt password hashing', 'Handlebars']
 },
@@ -125,7 +130,71 @@ export const project = [
       }
   ],
   technologies: ['React', 'Tailwind CSS', 'Framer Motion', 'React Icons']
+  
 },
+{
+  title: 'Code Crafters',
+  description: 'Engineered a full-stack fitness e-commerce platform (Next.js) with role-based authentication, integrated Stripe payments, and designed dynamic product management for supplements. Implemented admin dashboards with analytics and doctor consultation modules',
+  // image: copeople,
+  links: [
+      {
+          type: 'git',
+          url: 'https://github.com/parthpatelz/codebase-client.git'
+      }
+      ],
+  technologies: ['Next.js', 'TypeScript', 'Prisma', 'Stripe',' Firebase', 'Tailwind CSS']
+},
+{
+  title: 'Smart Task Manager',
+  description: 'Designed and developed an intelligent AI agent using Python, TensorFlow, and Hugging Face Transformers for natural language understanding and task automation. Integrated with Google Calendar and Gmail APIs to automate scheduling and email management. Deployed the agent on AWS using Docker for scalability and reliability.',
+  // image: copeople,
+  links: [
+      {
+          type: 'git',
+          url: 'https://github.com/parthpatelz/codebase-client.git'
+      }
+      ],
+  technologies: ['Python', 'PyTorch/TensorFlow', 'Hugging Face Transformers', 'OpenAI API', 'Flask/FastAPI', 'Twilio']
+},
+{
+  title: 'Sales Order & Transaction Management System',
+  description: 'Orchestrated 3 Spring Boot services (sales-order-tracker, finance-service, inventory-adaptor) to automate order tracking, financial reconciliation, and inventory updates for end-to-end visibility.Engineered REST APIs with JPA/Hibernate, reducing boilerplate 40% via Lombok.Implemented MySQL for ACID compliance and REST-based inventory synchronization.',
+  // image: copeople,
+  links: [
+      {
+          type: 'git',
+          url: 'https://github.com/parthpatelz/sales.git'
+      }
+      ],
+  technologies: ['Spring Boot', 'Java 17', 'MySQL', 'JPA', 'Lombok', 'REST', 'Swagger', 'Maven']
+},
+
+{
+  title: 'Patient Management System',
+  description: 'Engineered a Spring Boot application to track/manage patients via ID-driven CRUD operations.Designed RESTful APIs with JPA and MySQL for data persistence, streamlining database interactions by 40%.Integrated Thymeleaf for dynamic UI rendering and Spring Validation for data integrity.Utilized Lombok to eliminate 50% of boilerplate code and Maven for dependency management.Deployed via Spring Boot Maven Plugin with Swagger API documentation.',
+  // image: copeople,
+  links: [
+      {
+          type: 'git',
+          url: 'https://github.com/parthpatelz/PatientManagementSystem.git'
+      }
+      ],
+  technologies: ['Spring Boot', 'Java 17', 'MySQL', 'JPA', 'Lombok', 'REST','html', 'css', 'Swagger', 'Maven']
+},
+
+{
+  title: 'UserOrder Hub ',
+  description: 'Engineered a Spring Boot-based eCommerce solution to manage user orders, addresses, and workflows without product inventory. Streamlined order lifecycle operations (create/update/track) using RESTful APIs and JPA for MySQL data persistence. Automated API documentation via SpringDoc OpenAPI (Swagger) to accelerate third-party integrations.',
+  // image: copeople,
+  links: [
+      {
+          type: 'git',
+          url: 'https://github.com/parthpatelz/OrderManagementSystem.git'
+      }
+      ],
+  technologies: ['Spring Boot', 'Java', 'MySQL', 'JPA', 'Lombok', 'Swagger', 'Maven']
+},
+
     {
         title: 'Co People',
         description: 'A modern social platform enabling seamless user connections and content sharing. Full-stack application with real-time features and secure authentication.',

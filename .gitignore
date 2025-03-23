@@ -25,3 +25,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# Ignore sensitive files
+*.json
+.env
+*.pem
+*.crt
+*.key
