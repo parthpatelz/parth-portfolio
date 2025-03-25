@@ -49,7 +49,7 @@ const Home = () => {
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.5 }}
                     >
-                        Building scalable backend systems with cutting-edge technologies
+                        Lets make world a better place together.
                     </motion.p>
                 </motion.div>
             </div>

@@ -35,7 +35,7 @@ const About = () => {
             <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>-- Hello, I'm Parth Patel, a passionate <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/parthpatelz' target='_blank'>Software developer </a>dedicated to crafting robust front-end and back-end systems, captivating websites, and mobile applications.
               <br />
               -- With extensive experience in MEAN and MERN stacks, Angular, Next.js, Spring Boot, Express, MySQL, and MongoDB, I bring a holistic approach to software development. Beyond coding, my enthusiasm for technology extends to exploring new software, gaming, and working with machines.<br/>
-              -- Outside the tech world, I enjoy swimming and playing snooker. I am proud to have been a district champion in snooker in Ahmedabad, Gujarat.
+              -- Outside the tech world, I enjoy swimming and playing snooker. I am proud to have been a Winner, Gujarat State Open Ranking Billiards and Snooker Championship and third Runner-up, National Games of India – Swimming.
               <br/>
 </p>
             <ButtonLink
